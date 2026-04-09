@@ -68,4 +68,4 @@ Real retail sales data via Kaggle
 (rohitsahoo/sales-forecasting)
 
 ## Dashboard Preview
-![Sales Executive Dashboard](dashboard_preview.png)
+![Sales Executive Dashboard](dashboard__preview.png)
