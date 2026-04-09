@@ -1,0 +1,84 @@
+=================================================================
+  SALES BI DASHBOARD — MODEL SUMMARY REPORT
+  Generated: 2026-04-08 20:53:49
+=================================================================
+
+── OVERALL METRICS ────────────────────────────────────────
+  Total Revenue          : $2,261,536.78
+  Total Orders           :        4,922
+  Total Customers        :          793
+  Total Line Items       :        9,800
+  Avg Line Item Value    : $      230.77
+  Date Range             : 2015-01-03 → 2018-12-30
+
+── REGIONAL PERFORMANCE ────────────────────────────────────
+  #1 West       Rev: $710,219.68  (31.4%)  Orders: 1,587 ◀ BEST
+  #2 East       Rev: $669,518.73  (29.6%)  Orders: 1,369
+  #3 Central    Rev: $492,646.91  (21.78%)  Orders: 1,156
+  #4 South      Rev: $389,151.46  (17.21%)  Orders:  810
+
+── CATEGORY BREAKDOWN ──────────────────────────────────────
+  Technology           $827,455.87  (36.6%) ◀ BEST
+  Furniture            $728,658.58  (32.2%)
+  Office Supplies      $705,422.34  (31.2%)
+
+── TOP 10 PRODUCTS BY REVENUE ──────────────────────────────
+  #1  $61,599.82  [Copiers]  Canon imageCLASS 2200 Advanced Copier
+  #2  $27,453.38  [Binders]  Fellowes PB500 Electric Punch Plastic Comb Bi
+  #3  $22,638.48  [Machines]  Cisco TelePresence System EX90 Videoconferenc
+  #4  $21,870.58  [Chairs]  HON 5400 Series Task Chairs for Big and Tall
+  #5  $19,823.48  [Binders]  GBC DocuBind TL300 Electric Binding System
+  #6  $19,024.50  [Binders]  GBC Ibimaster 500 Manual ProClick Binding Sys
+  #7  $18,839.69  [Copiers]  Hewlett Packard LaserJet 3310 Copier
+  #8  $18,374.90  [Machines]  HP Designjet T520 Inkjet Large Format Printer
+  #9  $17,965.07  [Binders]  GBC DocuBind P400 Electric Binding System
+  #10 $17,030.31  [Supplies]  High Speed Automatic Electric Letter Opener
+
+── MONTH-OVER-MONTH REVENUE TRENDS ─────────────────────────
+  Average MoM Growth     : +40.51%
+  Best Month             : 2015-03  (+1121.4%  Rev: $55,205.80)
+  Worst Month            : 2017-01  (-75.1%  Rev: $18,542.49)
+
+── YEAR-OVER-YEAR GROWTH BY CATEGORY ───────────────────────
+  Furniture            2018: +8.4%  (from $195,813.04 → $212,313.79)
+  Office Supplies      2018: +31.8%  (from $182,417.57 → $240,367.54)
+  Technology           2018: +21.4%  (from $221,961.94 → $269,370.69)
+
+── CUSTOMER LTV SEGMENTATION ───────────────────────────────
+  VIP              Customers:  134  Avg Spend: $5,229.91  Rev Share: 30.99%
+  Loyal            Customers:   44  Avg Spend: $1,866.50  Rev Share: 3.63%
+  Growth           Customers: 1025  Avg Spend: $1,227.26  Rev Share: 55.62%
+  New / At-Risk    Customers: 1282  Avg Spend: $  172.12  Rev Share: 9.76%
+
+── COHORT RETENTION (Period 1 = 1 Month After Acquisition) ─
+  Avg 1-Month Retention  : 16.0%
+  Cohorts Analysed       : 43
+
+=================================================================
+  TOP 3 BUSINESS INSIGHTS
+=================================================================
+
+  1. West is the dominant region, accounting for 31.4% of
+     total revenue ($710,219.68). The gap to the #2 region
+     represents a meaningful concentration risk.
+
+  2. Technology drives the largest revenue share (36.6%).
+     The YoY growth trajectory for this category should be
+     a primary focus for inventory and marketing planning.
+
+  3. Average MoM revenue growth is +40.51%. The business shows
+     clear seasonality — 2015-03 was the peak month
+     (+1121.4%). Cohort retention at
+     month 1 averages 16.0%, indicating room to improve
+     repeat-purchase campaigns.
+
+=================================================================
+  OUTPUT FILES
+=================================================================
+  sales_database.db      — SQLite database (indexed)
+  tableau_sales.csv      — Enriched flat file for Tableau
+  mom_trends.csv         — Month-over-month revenue data
+  regional_rankings.csv  — Regional breakdown with rankings
+  cohort_analysis.csv    — Cohort retention matrix
+  sales_queries.sql      — All advanced SQL queries
+=================================================================

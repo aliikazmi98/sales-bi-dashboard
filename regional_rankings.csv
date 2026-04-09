@@ -1,0 +1,5 @@
+region,orders,customers,revenue,avg_sale,revenue_rank,revenue_pct
+West,1587,681,710219.68,226.18,1,31.4
+East,1369,669,669518.73,240.4,2,29.6
+Central,1156,626,492646.91,216.36,3,21.78
+South,810,509,389151.46,243.52,4,17.21
