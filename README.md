@@ -66,3 +66,6 @@ python3 sales_analysis.py
 ## Dataset
 Real retail sales data via Kaggle 
 (rohitsahoo/sales-forecasting)
+
+## Dashboard Preview
+![Sales Executive Dashboard](dashboard_preview.png)
